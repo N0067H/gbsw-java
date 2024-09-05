@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-class Input {
+public class SumTwoInt {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
