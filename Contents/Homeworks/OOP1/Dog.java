@@ -9,6 +9,7 @@ public class Dog extends Animal {
         System.out.println(this.name + ": Dog is Grrrr!!");
     }
 
+    @Override
     public void breath() {
         System.out.println("Breath grrrr");
     }
