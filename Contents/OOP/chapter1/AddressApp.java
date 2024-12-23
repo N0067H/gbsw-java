@@ -24,7 +24,7 @@ public class AddressApp {
             if (menu == 1) {
                 System.out.print("Name: ");
                 var name = in.next();
-
+                
                 for (var f : list) {
                     if (f.getName().contains(name)) {
                         System.out.println(f.getName() + '\t'
